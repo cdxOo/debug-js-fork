@@ -1,9 +1,9 @@
 {
-  "name": "debug",
-  "version": "4.3.4",
+  "name": "@cdxoo/debug-js-fork",
+  "version": "0.0.1",
   "repository": {
     "type": "git",
-    "url": "git://github.com/debug-js/debug.git"
+    "url": "git://github.com/cdxOo/debug-js-fork/debug.git"
   },
   "description": "Lightweight debugging utility for Node.js and the browser",
   "keywords": [
