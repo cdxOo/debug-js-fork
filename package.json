@@ -1,6 +1,6 @@
 {
   "name": "@cdxoo/debug-js-fork",
-  "version": "0.0.1",
+  "version": "0.0.0",
   "repository": {
     "type": "git",
     "url": "git://github.com/cdxOo/debug-js-fork/debug.git"
@@ -28,7 +28,10 @@
     "test": "npm run test:node && npm run test:browser && npm run lint",
     "test:node": "istanbul cover _mocha -- test.js",
     "test:browser": "karma start --single-run",
-    "test:coverage": "cat ./coverage/lcov.info | coveralls"
+    "test:coverage": "cat ./coverage/lcov.info | coveralls",
+    "release:dry": "npx release-it --dry-run --no-npm",
+    "release:beta": "release-it --preRelease=beta",
+    "release": "release-it"
   },
   "dependencies": {
     "ms": "2.1.2"
@@ -44,7 +47,8 @@
     "karma-mocha": "^1.3.0",
     "mocha": "^5.2.0",
     "mocha-lcov-reporter": "^1.2.0",
-    "xo": "^0.23.0"
+    "xo": "^0.23.0",
+    "release-it": "^15.11.0"
   },
   "peerDependenciesMeta": {
     "supports-color": {
