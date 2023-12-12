@@ -1,3 +1,7 @@
+# IMPORTANT: THIS IS A FORK
+This package is the same as the original except it doesnt humanize time deltas (i.e. 100ms/11s). Please use the original package.
+
+
 # debug
 [![Build Status](https://travis-ci.org/debug-js/debug.svg?branch=master)](https://travis-ci.org/debug-js/debug)  [![Coverage Status](https://coveralls.io/repos/github/debug-js/debug/badge.svg?branch=master)](https://coveralls.io/github/debug-js/debug?branch=master)  [![Slack](https://visionmedia-community-slackin.now.sh/badge.svg)](https://visionmedia-community-slackin.now.sh/) [![OpenCollective](https://opencollective.com/debug/backers/badge.svg)](#backers)
 [![OpenCollective](https://opencollective.com/debug/sponsors/badge.svg)](#sponsors)
