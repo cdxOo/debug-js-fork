@@ -1,6 +1,6 @@
-hooks:
-  'before:init':
-    - 'npm test'
+#hooks:
+#  'before:init':
+#    - 'npm test'
 git:
   commitMessage: "chore(release): v${version}"
   requireCommits: false
